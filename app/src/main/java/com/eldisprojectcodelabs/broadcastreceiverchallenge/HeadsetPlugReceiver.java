@@ -12,7 +12,7 @@ public class HeadsetPlugReceiver extends BroadcastReceiver {
         if (action.equals(Intent.ACTION_HEADSET_PLUG)){
             Toast.makeText(context, "Headset connected", Toast.LENGTH_SHORT).show();
         }else {
-            Toast.makeText(context, "Headset Disconnected", Toast.LENGTH_SHORT).show();
+            Toast.makeText(context, "Headset Disconnected" , Toast.LENGTH_SHORT).show();
         }
     }
 }
